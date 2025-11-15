@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+   
+    <div id="main">
+      <div class="inp"></div>
+      <div class="gbtn">
+        <div class="num">
+          <button class="op">1</button>
+          <button class="op">2</button>
+          <button class="op">3</button>
+          <button class="op">4</button>
+          <button class="op">5</button>
+          <button class="op">6</button>
+          <button class="op">7</button>
+          <button class="op">8</button>
+          <button class="op">9</button>
+          <button class="op">0</button>
+          <button class="op"  >+</button>
+          <button class="op"  >-</button>
+          <button class="op"  >*</button>
+          <button class="op" >/</button> 
+          <button class="op" >=</button>
+           <button class="op1" id="clear">c</button>
+
+          <button class="op" id="color">#</button>
+         </div>
+      </div>
+    </div>
+    
+
+    <script src="cal.js"></script>
+  </body>
+</html>
+
+<!-- <div class="main">
+  <input type="number" id="val1" />
+  <input type="number" id="val2" />
+  <input id="result" readonly />
+  <select id="btn">
+    <option>Select ops :</option>
+
+    <option value="+">Add +</option>
+    <option value="-">Sub -</option>
+    <option value="*">Multi *</option>
+    <option value="/">divide /</option>
+  </select>
+</div>
+<script>
+  const btn = document.getElementById("btn");
+  btn.addEventListener("change", () => {
+    let val1 = parseFloat(document.getElementById("val1").value);
+    let val2 = parseFloat(document.getElementById("val2").value);
+    let result = document.getElementById("result");
+    let oper = btn.value;
+    let res;
+    if (oper == "+") {
+      res = val1 + val2;
+    } else if (oper == "-") {
+      res = val1 - val2;
+    } else if (oper == "*") {
+      res = val1 * val2;
+    } else if (oper == "/") {
+      res = val1 / val2;
+    }
+    result.value = res;
+  });
+</script> -->
