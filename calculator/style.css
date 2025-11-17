@@ -12,7 +12,8 @@
         justify-content: center;
         
         /*background-image: url("https://www.shutterstock.com/image-photo/defocused-abstract-blur-image-empty-260nw-2593629479.jpg"); */
-        background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWEsWo2ISWtvSeGoIfqDYWxJPifaN-VohNeAYi-wcq1CPAnQtht_nr4FZdH9LiEQonz78&usqp=CAU");
+       /* background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWEsWo2ISWtvSeGoIfqDYWxJPifaN-VohNeAYi-wcq1CPAnQtht_nr4FZdH9LiEQonz78&usqp=CAU");*/
+              background-image:url("https://i.pinimg.com/originals/69/7f/3f/697f3f3c2cc68a43a1c8f4477fdf22e0.jpg");
 
 
         background-repeat: no-repeat;
@@ -160,3 +161,4 @@
     font-size: 14px;
   }
 }
+
