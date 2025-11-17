@@ -5,12 +5,16 @@
 
       body {
         width: 100%;
-        height: 100vh;
+       min-height: 100vh;
+       height: auto;
         display: flex;
         align-items: center;
         justify-content: center;
-        /*background-image: url("https://img.artpal.com/350391/3-20-10-31-3-9-32m.jpg  " ); */
-        background-image: url("https://www.shutterstock.com/image-photo/defocused-abstract-blur-image-empty-260nw-2593629479.jpg");
+        
+        /*background-image: url("https://www.shutterstock.com/image-photo/defocused-abstract-blur-image-empty-260nw-2593629479.jpg"); */
+        background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWEsWo2ISWtvSeGoIfqDYWxJPifaN-VohNeAYi-wcq1CPAnQtht_nr4FZdH9LiEQonz78&usqp=CAU");
+
+
         background-repeat: no-repeat;
         background-size: cover;
        background-position: center; /* center me dikhayegi */
@@ -81,3 +85,78 @@
          font-size: 20px;
         font-weight: 300;
       }
+
+
+      
+/*    MEDIA QUERIES START     */
+
+/* 768px (Tablet) ke liye */
+@media (max-width: 768px) {
+  #main {
+    width: 350px;
+    height: 450px;
+  }
+
+  .inp {
+    width: 320px;
+    height: 130px;
+    font-size: 28px;
+  }
+
+  button {
+    font-size: 18px;
+    width: 45px;
+    height: 35px;
+  }
+
+  #light {
+    width: 90px;
+    height: 35px;
+  }
+}
+
+/* 480px (Mobile Phones) ke liye */
+@media (max-width: 480px) {
+  
+ #main {
+    width: 350px;
+    height: 450px;
+  }
+
+  .inp {
+    width: 320px;
+    height: 130px;
+    font-size: 28px;
+  }
+
+  button {
+    font-size: 18px;
+    width: 45px;
+    height: 35px;
+  }
+
+  #light {
+    width: 90px;
+    height: 35px;
+  }
+}
+
+/* 360px (choti screen / older phones) ke liye */
+@media (max-width: 360px) {
+  #main {
+    width: 260px;
+    height: 500px;
+  }
+
+  .inp {
+    width: 230px;
+    height: 100px;
+    font-size: 18px;
+  }
+
+  button {
+    width: 35px;
+    height: 30px;
+    font-size: 14px;
+  }
+}
